@@ -1,9 +1,11 @@
 import './App.css';
+import NavBar from './NavBar';
 
 function Experience() {
   return (
     <div className="App">
-        Experience page
+      <NavBar />
+      Experience page
     </div>
   );
 }
