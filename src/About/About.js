@@ -1,5 +1,5 @@
-import './App.css';
-import NavBar from './NavBar';
+import '../App.css';
+import NavBar from '../NavBar/NavBar';
 import aboutMe from './aboutMe.png';
 import photo from './photo.png';
 

@@ -1,8 +1,8 @@
 import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import About from './About';
-import Experience from './Experience'
+import About from './About/About';
+import Experience from './Experience/Experience'
 
 function App() {
   return (
