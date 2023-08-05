@@ -12,14 +12,17 @@ function NavBar() {
         <AppBar position="static">
             <Toolbar className="AppBar">
                 <img src={logo} className="App-logo-small" alt="logo" />
-                <Link href="/" underline="hover" sx={{color: 'white', margin: '5px'}}>
+                <Link href="/" underline="hover" sx={{color: 'white', padding: '5px'}}>
                     HOME
                 </Link>
-                <Link href="#/about" underline="hover" sx={{color: 'white', margin: '5px'}}>
+                <Link href="#/about" underline="hover" sx={{color: 'white', padding: '5px'}}>
                     ABOUT
                 </Link>
-                <Link href="#/experience" underline="hover" sx={{color: 'white', margin: '5px'}}>
+                <Link href="#/experience" underline="hover" sx={{color: 'white', padding: '5px'}}>
                     EXPERIENCE
+                </Link>
+                <Link href="#/projects" underline="hover" sx={{color: 'white', padding: '5px'}}>
+                    PROJECTS
                 </Link>
             </Toolbar>
         </AppBar>

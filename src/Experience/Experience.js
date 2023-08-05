@@ -1,5 +1,4 @@
 import '../App.css';
-import NavBar from '../NavBar/NavBar';
 import experience1 from './experience1.png';
 import experience2 from './experience2.png';
 import experience3 from './experience3.png';
@@ -10,7 +9,6 @@ import experience6 from './experience6.png';
 function Experience() {
   return (
     <div className="App">
-      <NavBar />
       <div className="Margin">
         <img src={experience1} className="Experience" alt="experience" />
       </div>
